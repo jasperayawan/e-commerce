@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Product</title>
+    <link rel="stylesheet" type="text/css" href="business.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+
+<!----------header area styling--------->
+
+    <header>
+       <h1 class="logo">Jasper.</h1>
+        <nav class="container-list">
+
+            <div class="dropdown">
+            <div class="dropdown-search">
+                <input type="text" placeholder="Search.." class="search">
+              </div>
+              <button class="drop-btn">
+                <a href="#"><i class="uil uil-search"></i></a>
+            </button>
+            </div>
+
+                <a href="#"><i class="uil uil-shopping-cart"></i></a>
+
+
+                <div class="dropdown">
+                    <button class="drop-btn">
+                      <a href="#"><i class="uil uil-user"></i></a>
+                </button>
+                    <div class="dropdown-content">
+                        <a href="login.html">Sign In</a>
+                        <a href="#">Create Account</a>
+                        <hr>
+                        <a href="#">Orders</a>
+                        <a href="#">My account</a>
+                      </div> 
+            </div>
+    </nav>
+ </header>
+ 
+ <!--------------Home area styling---------->
+
+
+ <section class="home-area">
+     <div class="container">
+    <div class="content-area">
+        <img class="images" src="./assets/banner.jpg">
+        <div class="content-text">
+            <h1>Gadgets Product</h1>
+            <p>Now taking online orders. Order today and get <br>
+                15% of your first order. Hurry while supplies last!</p> 
+                <a href="#product" class="shop-btn btn">Shop<i class="uil uil-arrow-down"></i></a>
+        </div>
+    </div>
+    </div>
+ </section> 
+ <div class="loader">
+   <div class="straight"></div>
+ </div>
+
+ <!---------------Product section -----------------> 
+
+ <section class="container" id="product">
+     <div class="product-header">
+         <div class="text">  
+         <h3>Sort by</h3> 
+           <div class="dropdown">
+            <div class="text-Icon">
+          <span><a href="#" class="product-btn">Most popular</a></span> 
+          <i class="uil uil-angle-down"></i>
+          </div>
+          <div class="dropdown-content">
+            <a href="#">Newest</a>
+            <a href="#">Name (A-Z)</a>
+            <a href="#">Name (A-Z)</a>
+            <a href="#">Price (low to high)</a>
+            <a href="#">Price (high to low)</a>
+          </div>
+         </div>
+     </div>
+     </div>
+ <div class="product">
+     <div class="product-images">
+         <img src="./assets/soundbox.jpg" alt=""> 
+        
+        <div class="price">
+        <h3>Portable Home speaker</h3>
+        <p>$150.00</p>
+        </div>
+     </div>
+
+     <div class="product-images">
+        <img src="./assets/headphone.jpg" alt="">
+
+        <div class="price">
+        <h3>Headphones</h3>
+        <p>$250.00</p>
+        </div>
+    </div>
+
+    <div class="product-images">
+        <img src="./assets/camera.jpg" alt="">
+
+        <div class="price">
+        <h3>Sony Camera</h3>
+        <p>$400.00</p>
+        </div>
+    </div>
+
+    <div class="product-images">
+        <img src="./assets/watch.webp" alt="">
+
+        <div class="price">
+         <h3>Watch</h3>
+         <p>$150.00</p>   
+        </div>
+    </div>
+
+    <div class="product-images">
+        <img src="./assets/airpods.jpg" alt="">
+
+        <div class="price">
+        <h3>Wireless air pods</h3> 
+        <p>$135.00</p>
+        </div>
+    </div>
+
+    <div class="product-images">
+        <img src="./assets/mic.jpg" alt="">
+
+        <div class="price">
+        <h3>Sound Box</h3>
+        <p>$200.00</p>
+        </div>
+    </div>
+ </div>
+</section>
+
+<!--------------------Form Area----------------->
+
+<section class="container contain">
+<form action="index.html" Method="GET" class="contact-form">
+    <h1>Drop us a line!</h1>
+       <input type="text" name="text" placeholder="Name" class="form-input" required>
+        <input type="email" placeholder="Email" class="form-input" required>
+    <textarea type="text" name="message" class="form-input message-btn" placeholder="Message"></textarea>
+    <div class="submitbutton">
+       <button type="submit" class="submit-btn">Send</button>
+       </div>
+    <p class="form-p">This site is protectby reCAPTCHA and Google
+        <span> Privacy Policy</span> and <span>Terms of Service</span> apply.</p>
+    
+    <div class="questions container">
+        <div class="app-text">
+           <h1>Questions or Concerns?</h1>
+            <p>Need help selecting a product or finding a compatible option? Send us a message!</p>
+            <div class="apptext-business">
+           <h1>Business Name</h1>
+           <p>7033 Street, Anytown, Philippines email.</p>
+           </div>
+        </div>
+    </div>
+</section>
+</form>
+</div>
+ 
+
+<!--------------------Footer Area----------------->
+
+<section class="footer">
+    <div class="footer-text">
+        <div class="copyright">
+        <p>Copyright © 2021 KO Retail Electronics Template - All Rights Reserved.</p>
+    </div> 
+    <div class="prd">
+        <p>Powered by <span>GoDaddy</span> Website</p>
+    </div>
+    </div>
+</section> 
+
+
+ <script src="business.js"></script>
+</body>
+</html>
